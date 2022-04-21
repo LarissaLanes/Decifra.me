@@ -1,5 +1,8 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "../pages/Home";
+import Question1 from "../pages/question1";
+import ErrorPage from "../pages/erros/ErrorPage";
+import ErrorIam from "../pages/erros/ErrorIam";
 
 const Router = () => {
     return(
@@ -8,17 +11,8 @@ const Router = () => {
                 <Route exact path="/">
                     <Home/>
                 </Route>
-                <Route exact path="/noiteestrelada">
-                    
-                </Route>
-                <Route exact path="/01101011">
-                   
-                </Route>
-                <Route exact path="/">
-                    
-                </Route>
-                <Route exact path="/">
-                    
+                <Route exact path="/sim">
+                    <Question1/>
                 </Route>
                 <Route exact path="/">
                    
@@ -30,7 +24,16 @@ const Router = () => {
                     
                 </Route>
                 <Route exact path="/">
+                   
+                </Route>
+                <Route exact path="/">
                     
+                </Route>
+                <Route exact path="/estou">
+                    <ErrorIam/>
+                </Route>
+                <Route>
+                    <ErrorPage/>
                 </Route>
                 
             </Switch>
@@ -39,3 +42,5 @@ const Router = () => {
 }
 
 export default Router;
+
+
