@@ -1,12 +1,12 @@
 import { Question} from "../styled/styled";
 import IconButton from '@mui/material/IconButton';
 import HelpIcon from '@mui/icons-material/Help';
-import nemo from "../assets/Nemo.webp"
+import tratado from "../assets/frota-de-navios-perry-kanagawa_opt.jpg"
 
-const Question1 = () => {
+const Question3 = () => {
 
     function Alert(){
-        alert("o google é seu melhor amigo");
+        alert("olhe com atenção");
     }
 
     return(
@@ -17,12 +17,12 @@ const Question1 = () => {
                 </IconButton>
             </div>
             <div>
-                <img src={nemo} title="lugar solitário"/>
-                <p>cthulhu</p>
+                <img src={tratado} title="período"/>
+                <p>35.43623612832127, 139.2658824187578</p>
             </div>
         </Question>
 
     )
 }
 
-export default Question1;
+export default Question3;

@@ -3,6 +3,12 @@ import Home from "../pages/Home";
 import Question1 from "../pages/question1";
 import ErrorPage from "../pages/erros/ErrorPage";
 import ErrorIam from "../pages/erros/ErrorIam";
+import ErrorSintaxe from "../pages/erros/ErrorSintaxe"
+import Question2 from "../pages/question2";
+import Question3 from "../pages/question3";
+import ErrorZ from "../pages/erros/ErrorZ"
+import Question4 from "../pages/question4"
+import Question5 from "../pages/question5";
 
 const Router = () => {
     return(
@@ -14,22 +20,32 @@ const Router = () => {
                 <Route exact path="/sim">
                     <Question1/>
                 </Route>
-                <Route exact path="/">
-                   
+                <Route exact path="/pontonemo">
+                   <Question2/>
                 </Route>
-                <Route exact path="/">
-                    
+                <Route exact path="/231">
+                    <Question3/>
                 </Route>
-                <Route exact path="/">
-                    
+                <Route exact path="/sakoku">
+                    <Question4/>
                 </Route>
-                <Route exact path="/">
-                   
+                <Route exact path="/anil">
+                    <Question5/>
                 </Route>
-                <Route exact path="/">
-                    
+                <Route exact path="">
+
                 </Route>
-                <Route exact path="/estou">
+
+
+
+                
+                <Route exact path="/hinata">
+                   <ErrorZ/>
+                </Route>
+                <Route exact path="/ponto nemo">
+                    <ErrorSintaxe/>
+                </Route>
+                <Route exact path="/estou"> 
                     <ErrorIam/>
                 </Route>
                 <Route>

@@ -41,19 +41,30 @@ export const Error = styled.div`
 `
 
 export const Question = styled.div`
+   display: grid;
+   grid-template-rows: 1fr 4fr;
    background-color: black;
    height: 100vh;
-   display: flex;
-   align-items: center;
-   flex-direction:column;
-   justify-content:center;
-    
-    img{
-        height: 40vh;
-        
-    }
+
+  div{
+    margin-top: 2em;
+    text-align: center;
 
     p{
       color: #403d39;
     }
+
+  button{
+      margin-right: 80%;
+    }
+
+    img{
+      margin-top: 1em;
+      height: 40vh;
+
+      @media screen and (min-device-width : 220px) and (max-device-width : 480px) {
+        height: 30vh;
+  }
+    }
 `
+
