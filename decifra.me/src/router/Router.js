@@ -11,6 +11,7 @@ import Question4 from "../pages/question4"
 import Question5 from "../pages/question5";
 import Question6 from "../pages/question6"
 import Question7 from "../pages/question7";
+import ErrorBinario from "../pages/erros/ErrorBinario"
 
 const Router = () => {
     return(
@@ -25,7 +26,7 @@ const Router = () => {
                 <Route exact path="/pontonemo">
                    <Question2/>
                 </Route>
-                <Route exact path="/231">
+                <Route exact path="/11100111">
                     <Question3/>
                 </Route>
                 <Route exact path="/sakoku">
@@ -40,9 +41,9 @@ const Router = () => {
                 <Route exact path="/galia">
                     <Question7/>
                 </Route>
-
-
-
+                <Route exact path="/231">
+                    <ErrorBinario/>
+                </Route>
                 <Route exact path="/hinata">
                    <ErrorZ/>
                 </Route>
