@@ -9,6 +9,8 @@ import Question3 from "../pages/question3";
 import ErrorZ from "../pages/erros/ErrorZ"
 import Question4 from "../pages/question4"
 import Question5 from "../pages/question5";
+import Question6 from "../pages/question6"
+import Question7 from "../pages/question7";
 
 const Router = () => {
     return(
@@ -32,13 +34,15 @@ const Router = () => {
                 <Route exact path="/anil">
                     <Question5/>
                 </Route>
-                <Route exact path="">
-
+                <Route exact path="/baralhodecartas">
+                    <Question6/>
+                </Route>
+                <Route exact path="/galia">
+                    <Question7/>
                 </Route>
 
 
 
-                
                 <Route exact path="/hinata">
                    <ErrorZ/>
                 </Route>

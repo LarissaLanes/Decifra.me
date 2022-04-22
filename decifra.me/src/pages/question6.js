@@ -1,12 +1,12 @@
 import { Question} from "../styled/styled";
 import IconButton from '@mui/material/IconButton';
 import HelpIcon from '@mui/icons-material/Help';
-import black from "../assets/black.jpg"
+import cesar from "../assets/cesar.jpeg"
 
-const Question4 = () => {
+const Question6 = () => {
 
     function Alert(){
-        alert("a sexta cor");
+        alert("local onde houve guerra");
     }
 
     return(
@@ -17,13 +17,12 @@ const Question4 = () => {
                 </IconButton>
             </div>
             <div>
-                <p>1 2 3 4 5 6 7 </p>
-                <img src={black} title="aliança"/>
-                <p>V L A V A A V</p>
+                <img src={cesar} title="rotação de três posições para a direita"/>
+                <p>GH EHOOR JDOOLFR</p>
             </div>
         </Question>
 
     )
 }
 
-export default Question4;
+export default Question6;

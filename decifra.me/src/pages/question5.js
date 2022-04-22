@@ -5,7 +5,7 @@ import HelpIcon from '@mui/icons-material/Help';
 const Question5 = () => {
 
     function Alert(){
-        alert("");
+        alert("olhe com atenção, o essencial é invisível aos olhos");
     }
 
     return(
@@ -16,9 +16,16 @@ const Question5 = () => {
                 </IconButton>
             </div>
             <div>
-                {/* <p>1 2 3 4 5 6 7 </p>
-                <img src={anil} title="aliança"/>
-                <p>V L A V A A V</p> */}
+                <p>Uma dúzia de nobres reunidos, por dois bufões entretidos. 
+                <br/>
+                Cada rei dez servos tem, mas homem, comum, ninguém. 
+                <br/>
+                Enfrentando o servo menor, o rei leva sempre a pior.
+                <br/>
+                 Madeira impávida, metal brilhante, cálice sagrado, arma desafiante.
+                 <br/>
+                 Do que estamos falando?</p>
+                 <h6>baralho de cartas.</h6>
             </div>
         </Question>
 
