@@ -1,7 +1,7 @@
 import { Question} from "../styled/styled";
 import IconButton from '@mui/material/IconButton';
 import HelpIcon from '@mui/icons-material/Help';
-import black from "../assets/black.jpg"
+import champeon from "../assets/chanpeon.jpg"
 
 const Question7 = () => {
 
@@ -18,7 +18,7 @@ const Question7 = () => {
             </div>
             <div>
                 <p>Você decifrou todos os 6 enigmas,Obrigada por jogar até aqui</p>
-                <img src={black} />
+                <img src={champeon} />
                 <p>essa é uma versão inicial e simplificada inspirado em outros enigmas</p>
             </div>
         </Question>
