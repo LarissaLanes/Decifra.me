@@ -1,24 +1,25 @@
 import { Question} from "../styled/styled";
 import IconButton from '@mui/material/IconButton';
 import HelpIcon from '@mui/icons-material/Help';
-import cesar from "../assets/cesar.jpeg"
+import black from "../assets/black.jpg"
 
 const Question7 = () => {
 
     function Alert(){
-        alert("cores primarias");
+        alert("");
     }
 
     return(
         <Question>
             <div>
-                <IconButton onClick={() => Alert()} color="error">
+                {/* <IconButton onClick={() => Alert()} color="error">
                         <HelpIcon/>
-                </IconButton>
+                </IconButton> */}
             </div>
             <div>
-                <img src={cesar} title="rotação de três posições para a direita"/>
-                <p></p>
+                <p>Você decifrou todos os 6 enigmas,Obrigada por jogar até aqui</p>
+                <img src={black} />
+                <p>essa é uma versão inicial e simplificada inspirado em outros enigmas</p>
             </div>
         </Question>
 
